@@ -1,0 +1,15 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="logfield-measure" attributes="value unit">
+  <template>
+    <p>
+      logfield-measure { value: {{value}}, unit: {{unit}}}
+    </p>
+  </template>
+  <script>
+    Polymer('logfield-measure', {
+      value: "0",
+      unit: "kg"
+    });
+  </script>
+</polymer-element>
